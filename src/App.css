@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	font-family: 'Rubik', sans-serif;
+	color: var(--white);
+}
+body {
+	line-height: 1;
+	
+}
+ol, ul {
+	list-style: none;
+	
+}
+blockquote, q {
+	quotes: none;
+	
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+:root {
+	--white: #fff;
+	--light-white: #aaa;
+	--black: #252525;
+	--light-bg: #3d3d3d;
+	--light-red: #CE2D4F;
+}
+
+*::selection {
+	background-color: var(--light-red);
+	color: var(--white);
+}
+
+html {
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	scroll-padding-top: 8rem;
+}
+
+::-webkit-scrollbar {
+	height: .5rem;
+	width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--light-red);
+	border-radius: 5rem;
+}
+
+body {
+	background-color: var(--black);
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.btn {
+	display: inline-block;
+	margin-top: 1rem;
+	border-radius: 5rem;
+	background-color: var(--light-red);
+	cursor: pointer;
+	color: var(--white);
+	font-size: 1.8rem;
+	padding: 1rem 3rem;
+}
+
+.btn:hover {
+	background-color: var(--white);
+	color: var(--light-red);
+}
+
+.heading {
+	margin-bottom: 2.5rem;
+	font-size: 4rem;
+	color: var(--white);
+}
+
+.heading span {
+	color: var(--light-red);
+}
+
+.sub-heading {
+	margin-bottom: 2.5rem;
+	font-size: 2.5rem;
+	color: var(--white);
+}
+
+.sub-heading span {
+	color: var(--light-red);
+}
+
+.btn-2 {
+	display: inline-block;
+	margin-top: 1rem;
+	border-radius: 1rem;
+	background-color: var(--light-red);
+	cursor: pointer;
+	color: var(--white);
+	font-size: 1.8rem;
+	padding: 1rem 3rem;
+	width: 100%;
+}
+
+.btn-2:hover {
+	background-color: var(--white);
+	color: var(--light-red);
+}
